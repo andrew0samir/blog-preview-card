@@ -1,0 +1,51 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+.layer{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: hsl(0, 0%, 100%) ;
+    width: 400px ;
+    margin: 20px ;
+    padding: 20px ;
+    color: hsl(0, 0%, 7%);
+    border: 1px hsl(0, 0%, 7%) solid ;
+    border-radius: 15px;
+    box-shadow: 10px 10px ;
+    font-family: Figtree ;
+    transform: scale(.8);
+
+}
+.image img{
+    width: 100%;
+    border-radius: 15px ;
+}
+.content .paragraph{
+    color: hsl(0, 0%, 50%);
+}
+.content h2 {
+    font-weight: bold;
+}
+.content span {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px ;
+    font-weight: bold;
+}
+.profile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.pic{
+    margin-right: 5px ;
+}
+.name {
+    font-weight: bold ;
+}
